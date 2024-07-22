@@ -1,16 +1,67 @@
-# todo_app
 
-A new Flutter project.
+
+# TODO Application
+
+## Description
+
+This is a simple TODO application built with Flutter and GetX. The application allows users to manage their tasks efficiently by adding, editing, deleting, and marking tasks as complete.
+
+## Features
+
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as complete
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK: Comes with Flutter
+- IDE: VS Code, Android Studio, or any IDE of your choice
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Get the dependencies:
+   ```sh
+   flutter pub get
+   ```
+
+### Running the App
+
+1. Connect your device or start an emulator.
+2. Run the app:
+   ```sh
+   flutter run
+   ```
+
+## Folder Structure
+
+```
+lib
+├── controllers
+│   └── todo_controller.dart
+├── screens
+│   └── home_screen.dart
+└── main.dart
+```
+
+## Dependencies
+
+- [GetX](https://pub.dev/packages/get): State management and routing
+  
+ ## Screenshots
+
+<img src="https://github.com/user-attachments/assets/f5964a2e-6ee1-4678-9fad-df57da64a545" height=500px >
+
+<img src="https://github.com/user-attachments/assets/a46c95f1-6238-4e6d-b247-280af7aad9f6" height=500px >
+
+<img src="https://github.com/user-attachments/assets/ace67b69-6838-4b37-bcaf-1945554805a1" height=500px >
+
+## Video
+[video.webm](https://github.com/user-attachments/assets/82a3d018-c8af-4493-bf9e-ce95d178c61f)
+
+
+
